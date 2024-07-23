@@ -25,9 +25,24 @@
     </div>
     <div class="header__right-column">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <div class="cart-icon">
-            <i class="fa-solid fa-cart-shopping"></i>
-            <span class="cart-count">1</span>
+        <div class="cart-icon-wrapper">
+            <a href="#basketDropdown" class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-count">1</span>
+            </a>
+            <div id="basketDropdown" class="basket-dropdown">
+                <div class="basket-content">
+                    <a href="#" class="close">&times;</a>
+                    <h2 class="basket-title">In Your Basket</h2>
+                    <div class="basket-item">
+                        <img src="./images/mbp.png" alt="Macbook Pro 2021">
+                        <div class="basket-item-details">
+                            <h3>Macbook Pro 2021</h3>
+                            <p>Price: $1999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </header>
@@ -67,7 +82,7 @@
     </section>
 </main>
 
-<!-- Modal Structure -->
+<!-- Video Modal Structure -->
 <div id="videoModal" class="modal">
     <div class="modal-content">
         <a href="#" class="close">&times;</a>

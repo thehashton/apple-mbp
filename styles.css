@@ -299,10 +299,11 @@ body, html {
     animation-delay: 0.4s; /* Adjust delay as needed */
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1100px) {
     .specs {
         flex-direction: row;
         justify-content: space-around;
+        padding: 0;
     }
 }
 
@@ -311,10 +312,14 @@ body, html {
     border-right: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1100px) {
     .spec {
         border-right: 1px solid rgba(255, 255, 255, 0.1);
         padding-right: 3rem;
+    }
+
+    .spec:last-of-type {
+        padding-right: 0;
     }
 }
 

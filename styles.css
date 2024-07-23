@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* General */
 body, html {
     margin: 0;
     padding: 0;
     background: linear-gradient(90deg, rgb(33, 33, 33) 0%, rgb(0, 0, 0) 100%);
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #bbbbbb;
     scroll-behavior: smooth;
 }
@@ -275,9 +277,10 @@ body, html {
 @media screen and (min-width: 1200px) {
     .hero__image img {
         position: absolute;
-        top: 50px;
-        right: -300px;
-        width: 1000px;
+        top: 0;
+        height: auto;
+        right: -600px;
+        width: 1400px;
     }
 }
 
